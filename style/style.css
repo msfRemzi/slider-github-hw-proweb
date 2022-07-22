@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+.slider {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.slider__slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(37, 36, 36);
+    font-size: 100px;
+    cursor: pointer;
+}
+
+.slider__btns {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+button {
+    background: purple;
+    font-size: 30px;
+    padding: 10px 30px;
+    color: #fff;
+}
